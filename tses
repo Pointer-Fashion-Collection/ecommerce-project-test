@@ -1,0 +1,33 @@
+PS C:\Users\DELL\Documents\drive\OneDrive\Desktop\ecommerce-project> git config --global user.name "Pointer-Fashion-Collection"
+>> git config --global user.email "pointerfashion001@gmail.com"
+PS C:\Users\DELL\Documents\drive\OneDrive\Desktop\ecommerce-project> git remote set-url origin https://github.com/Pointer-Fashion-Collection/ecommerce-project-test
+PS C:\Users\DELL\Documents\drive\OneDrive\Desktop\ecommerce-project> git push -u origin main
+info: please complete authentication in your browser...
+To https://github.com/Pointer-Fashion-Collection/ecommerce-project-test
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Pointer-Fashion-Collection/ecommerce-project-test'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\DELL\Documents\drive\OneDrive\Desktop\ecommerce-project> git pull origin main --rebase
+>> git push -u origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 863 bytes | 57.00 KiB/s, done.
+From https://github.com/Pointer-Fashion-Collection/ecommerce-project-test
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Successfully rebased and updated refs/heads/main.
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (21/21), 3.88 KiB | 248.00 KiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Pointer-Fashion-Collection/ecommerce-project-test
+   9e8a10d..bc9850c  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\DELL\Documents\drive\OneDrive\Desktop\ecommerce-project> 
